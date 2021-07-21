@@ -1,0 +1,33 @@
+/* css reset  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+
+}
+.form-container{
+     margin-top: 2rem;
+    padding: 2rem;
+    border: 1px solid black;
+    box-shadow: 2px 2px 9px, -3px 3px 10px;
+    width: 500px;
+        background: #75af9b;
+}
+.create_btn{
+    text-align: center;
+ 
+}
+.create_btn > button {
+    margin-top:1rem;
+}
+.mb-3 label{
+        font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+}
+form{
+    margin: 50px 20px
+}
