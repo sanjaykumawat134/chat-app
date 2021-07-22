@@ -1,33 +1,72 @@
 /* css reset  */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: aliceblue;
-
+body {
+  background-color: aliceblue;
 }
-.form-container{
-     margin-top: 2rem;
-    padding: 2rem;
-    border: 1px solid black;
-    box-shadow: 2px 2px 9px, -3px 3px 10px;
-    width: 500px;
-        background: #75af9b;
+.form-container {
+  position: relative;
+  border: 1px solid black;
+  box-shadow: 2px 2px 9px, -3px 3px 10px;
+  background: #75af9b;
+  height: 80vh;
 }
-.create_btn{
-    text-align: center;
- 
+.create_btn {
+  text-align: center;
 }
 .create_btn > button {
-    margin-top:1rem;
+  margin-top: 1rem;
+  position: absolute;
+  right: 30px;
+  bottom: 15px;
 }
-.mb-3 label{
-        font-size: 1.5rem;
-    font-weight: 600;
-    color: black;
+.mb-3 {
+  width: 85%;
+  /* width:75%      media query*/
 }
-form{
-    margin: 50px 20px
+.mb-3 label {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+}
+form {
+  margin: 50px 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+#send-location {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+}
+.row {
+  position: relative;
+}
+
+#messages {
+  position: absolute;
+  left: 50px;
+  z-index: 2;
+  margin-left: 10rem;
+  margin-top: 10px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+#message_main > p :first-child {
+  color: blue;
+  background-color: rgb(185, 169, 169);
+  padding: 10px;
+}
+#message_main > :last-child > :last-child {
+  color: black;
+  background-color: rgb(184, 67, 38);
+  padding: 5px;
+}
+#message_main {
+  padding: 10px;
 }
