@@ -1,72 +1,33 @@
-/* css reset  */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+html,
 body {
-  background-color: aliceblue;
+  height: 100%;
+  background: #34568b;
 }
-.form-container {
-  position: relative;
-  border: 1px solid black;
-  box-shadow: 2px 2px 9px, -3px 3px 10px;
-  background: #75af9b;
-  height: 80vh;
-}
-.create_btn {
-  text-align: center;
-}
-.create_btn > button {
-  margin-top: 1rem;
-  position: absolute;
-  right: 30px;
-  bottom: 15px;
-}
-.mb-3 {
-  width: 85%;
-  /* width:75%      media query*/
-}
-.mb-3 label {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: black;
-}
-form {
-  margin: 50px 20px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-#send-location {
-  position: absolute;
-  bottom: 15px;
-  right: 10px;
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .row {
-  position: relative;
+  flex: 1;
 }
-
-#messages {
-  position: absolute;
-  left: 50px;
-  z-index: 2;
-  margin-left: 10rem;
-  margin-top: 10px;
-  padding: 10px;
-  font-weight: 500;
+.col-md-6 {
+  background: #d4f5f5;
+  padding: 50px;
 }
-
-#message_main > p :first-child {
-  color: blue;
-  background-color: rgb(185, 169, 169);
-  padding: 10px;
+.display-3 {
+  text-align: center;
+  font-weight: 400;
 }
-#message_main > :last-child > :last-child {
-  color: black;
-  background-color: rgb(184, 67, 38);
-  padding: 5px;
+.form-group {
+  text-align: center;
+  padding: 20px;
 }
-#message_main {
-  padding: 10px;
+.btn-success {
+  width: 100%;
+}
+label {
+  font-size: 1.2rem;
+  font-weight: 400;
 }
